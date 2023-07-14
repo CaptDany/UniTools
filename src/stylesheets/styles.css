@@ -1,0 +1,133 @@
+/* Topbar styles */
+
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px rgb(72, 72, 72);
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topleft{
+    align-items: center;
+    margin: 5%;
+    display: flex;
+}
+
+.topright{
+    position: fixed;
+    width: 10vh;
+    left:90vmax;
+    right: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+/* Email Changer styles */
+
+.maintc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+p.result{
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+/* Hamburger styles */
+
+.hamburger-top-bar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20px;
+    padding: 20px;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger-bar {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 4px;
+}
+
+.hamburger-menu-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 2vh;
+}
+
+.hamburger-menu-items span {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.hamburger-menu-items span:hover {
+    background-color: #f1f1f1;
+}
+
+/* Bottom bar styles */
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #f1f1f1;
+}
+
+.bottom-bar-links {
+    display: flex;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    gap: 10px;
+}
+
+.bottom-bar-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.bottom-bar-text {
+    margin: 0;
+    font-size: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+}
