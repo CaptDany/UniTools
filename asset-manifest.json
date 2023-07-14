@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UniTools/static/css/main.f0a5c72f.css",
+    "main.js": "/UniTools/static/js/main.ba984041.js",
+    "index.html": "/UniTools/index.html",
+    "main.f0a5c72f.css.map": "/UniTools/static/css/main.f0a5c72f.css.map",
+    "main.ba984041.js.map": "/UniTools/static/js/main.ba984041.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0a5c72f.css",
+    "static/js/main.ba984041.js"
+  ]
+}
