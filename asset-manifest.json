@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/UniTools/static/css/main.cf8c6129.css",
-    "main.js": "/UniTools/static/js/main.0ea1d699.js",
+    "main.js": "/UniTools/static/js/main.1c561af5.js",
     "static/media/report-home.svg": "/UniTools/static/media/report-home.af509caa91c75dcf1e20c871b230fa2d.svg",
     "static/media/mail-home.svg": "/UniTools/static/media/mail-home.24fd55b856c2f532d17f6cd6d31d72d7.svg",
     "index.html": "/UniTools/index.html",
     "main.cf8c6129.css.map": "/UniTools/static/css/main.cf8c6129.css.map",
-    "main.0ea1d699.js.map": "/UniTools/static/js/main.0ea1d699.js.map"
+    "main.1c561af5.js.map": "/UniTools/static/js/main.1c561af5.js.map"
   },
   "entrypoints": [
     "static/css/main.cf8c6129.css",
-    "static/js/main.0ea1d699.js"
+    "static/js/main.1c561af5.js"
   ]
 }
