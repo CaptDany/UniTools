@@ -12,7 +12,7 @@ export default function TopBar(props) {
                 </div>
     
                 <div className="topright">
-                    <a className="top-bar-links" href="/">🏴‍☠️ Uni Tools</a>
+                    <a className="top-bar-links" href="/UniTools">🏴‍☠️ Uni Tools</a>
                 </div>
             </div>
         )
@@ -21,7 +21,7 @@ export default function TopBar(props) {
         return(
         <div className="topbarcenter">
             <div className="topcenter">
-                <a className="top-bar-links" href="/">🏴‍☠️ Uni Tools</a>
+                <a className="top-bar-links" href="/UniTools">🏴‍☠️ Uni Tools</a>
             </div>
         </div>
         )
