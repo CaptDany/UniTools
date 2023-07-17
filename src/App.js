@@ -7,14 +7,13 @@ import NoPage from './pages/NoPage';
 export default function App() {
     return(
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename='/UniTools'>
                 <Routes>
                     <Route index element={<Home/>} />
-                    <Route path="/UniTools/home" element={<Home/>} />
-                    <Route path="/UniTools" element={<Home/>} />
-                    <Route path="/UniTools/exceltomail" element={<ExcelToMail/>} />
-                    <Route path="/UniTools/estadias" element={<InternshipFormatter/>} />
-                    <Route path="/UniTools/*" element={<NoPage/>} />
+                    <Route path="/home" element={<Home/>} />
+                    <Route path="/exceltomail" element={<ExcelToMail/>} />
+                    <Route path="/estadias" element={<InternshipFormatter/>} />
+                    <Route path="*" element={<NoPage/>} />
                 </Routes>
             </BrowserRouter>
         </div>
