@@ -6,12 +6,12 @@ const ItemList = () => {
     {
       image: image1,
       text: 'Excel list to mail recipients converter',
-      link: 'https://captdany.github.io/UniTools/exceltomail',
+      link: '/exceltomail',
     },
     {
       image: image2,
       text: 'Internship report formatter (comming soon)',
-      link: 'https://captdany.github.io/UniTools/estadias',
+      link: '/estadias',
     },
   ];
 
