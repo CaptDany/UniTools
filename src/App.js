@@ -8,6 +8,7 @@ export default function App() {
     return(
         <>
                 <Routes>
+                    <Route index element={<Home/>}/>
                     <Route path="/UniTools/" element={<Navigate to="/UniTools/home" />} />
                     <Route path="/UniTools/home" element={<Home/>} />
                     <Route path="/UniTools/exceltomail" element={<ExcelToMail/>} />
