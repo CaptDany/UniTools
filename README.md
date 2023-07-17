@@ -1,5 +1,5 @@
 <p  align="center">
-<img  src="public/readmebanner.png"  alt="Project banner"  width="600" />
+<img  src="public/assets/images/readmebanner.png"  alt="Project banner"  width="600" />
 </p>
 
 <h1  align="center">Captain Dany's Uni Tools</h1>

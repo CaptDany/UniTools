@@ -1,17 +1,22 @@
-import TopBar from "./components/TopBar";
-import ListChanger from "./components/ListChanger";
-import BotBar from "./components/BotBar";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home';
+import InternshipFormatter from './pages/InternshipFormatter';
+import ExcelToMail from './pages/ExcelToMail';
+import NoPage from './pages/NoPage';
 
-function App() {
-  return (
-    <>
-    <TopBar/>
-    <ListChanger/>
-    <div style={{width: "100%", position: "fixed", bottom: "0"}}>
-      <BotBar/>
-    </div>
-    </>
-  );
+export default function App() {
+    return(
+        <div>
+            <BrowserRouter>
+                <Routes>
+                    <Route index element={<Home/>} />
+                    <Route path="/home" element={<Home/>} />
+                    <Route path="/UniTools" element={<Home/>} />
+                    <Route path="/exceltomail" element={<ExcelToMail/>} />
+                    <Route path="/estadias" element={<InternshipFormatter/>} />
+                    <Route path="*" element={<NoPage/>} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    )
 }
-
-export default App;
