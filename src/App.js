@@ -10,11 +10,11 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route index element={<Home/>} />
-                    <Route path="/home" element={<Home/>} />
+                    <Route path="/UniTools/home" element={<Home/>} />
                     <Route path="/UniTools" element={<Home/>} />
-                    <Route path="/exceltomail" element={<ExcelToMail/>} />
-                    <Route path="/estadias" element={<InternshipFormatter/>} />
-                    <Route path="*" element={<NoPage/>} />
+                    <Route path="/UniTools/exceltomail" element={<ExcelToMail/>} />
+                    <Route path="/UniTools/estadias" element={<InternshipFormatter/>} />
+                    <Route path="/UniTools/*" element={<NoPage/>} />
                 </Routes>
             </BrowserRouter>
         </div>
