@@ -149,11 +149,16 @@ p.result{
     color: #666;
 }
 
+@media only screen and (max-width: 600px) {
+    [class*="bottom-bar"] {
+        font-size: 1.5vh;
+        gap: 8px;
+    }
+  }
+
 /* Item list styles */
 
 .item-list {
-    padding-left:20vmax;
-    padding-right: 20vmax;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -187,4 +192,44 @@ p.result{
 .item-link {
     text-decoration: none;
     cursor: pointer;
+}
+
+/* About page styles */
+
+.about {
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.about h1 {
+    font-weight: 500;
+    margin: 3%;
+    color: #F890A5;
+}
+
+.about h2 {
+    font-weight: 400;
+    margin: 3%;
+}
+
+.about p {
+    font-weight: 300;
+    margin: 3%;
+}
+
+.about a {
+    cursor: pointer;
+    color: #333;
+}
+
+.about img {
+    width: 20%;
+    margin: 3%;
 }

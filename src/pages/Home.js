@@ -11,7 +11,7 @@ function Home() {
       <h2 className="container-to-transition">Welcome to</h2>
       <h1 className="container-to-transition">Uni Tools</h1>
     </div>
-    <div className="container-to-transition">
+    <div className="container-to-transition" style={{marginLeft: "auto", marginRight: "auto", width:"50%"}}>
       <ItemList></ItemList>
     </div>
     <div style={{width: "100%", position: "fixed", bottom: "0"}}>
